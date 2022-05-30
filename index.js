@@ -7,10 +7,10 @@ import gamesRouter from "./routes/gamesRouter.js";
 import rentalsRouter from "./routes/rentalsRouter.js";
 
 const app = express();
-app.use(cors());
-app.use(json());
 dotenv.config();
 
+app.use(cors());
+app.use(json());
 app.use(categoriesRouter);
 app.use(costumersRouter);
 app.use(gamesRouter);
