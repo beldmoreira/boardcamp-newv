@@ -1,0 +1,29 @@
+{
+  "name": "boardcamp-newv",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.2",
+    "dotenv": "^16.0.1",
+    "espress": "^0.0.0",
+    "i": "^0.3.7",
+    "joi": "^17.6.0",
+    "nodemon": "^2.0.16",
+    "npm": "^8.11.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
